@@ -1,0 +1,206 @@
+
+body {
+  margin: 0;
+  /* centers the text */
+  text-align: center;
+  /* creates the regular text font */
+  font-family: 'Merriweather', serif;
+  /* cretes text size of whole */
+  font-size: 100%;
+  color: #40514E;
+
+}
+h1 {
+/* centers the text and makes the margin of the title text proper */
+  width: 10%;
+
+  /* creates the margin positioning of the title */
+  margin-left: 350px;
+  margin-top: 50px auto 0 auto;
+  /* creates the cursive text font */
+  font-family: 'Sacramento', cursive;
+  /* cretes text size of title */
+  font-size: 5.625rem;
+  /* makes text into one line */
+  white-space: nowrap;
+  /* adjusts text color into a specific color */
+  color: #66BFBF;
+  /* doubles the line height of the title tag */
+  line-height: 2;
+}
+
+h2 {
+  /* creates the regular body paragraph text font */
+  font-family: 'Montserrat', sans-serif;
+  /* cretes text size of h2 writing */
+  font-size: 1.75rem;
+  /* adjusts text color into a specific color */
+  color: #74BEC1;
+  /* changing weight of text to normal */
+  font-weight: normal;
+}
+
+h3 {
+  /* creates the regular body paragraph text font */
+  font-family: 'Montserrat', sans-serif;
+
+/* adjusts text color into a specific color */
+  color: #11999E
+}
+
+p {
+  /* all paragrahs will have same font size */
+  line-height: 2;
+}
+
+a {
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+
+}
+
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  /* removes underline within anchor tags */
+  text-decoration: none;
+}
+.footer-link:hover {
+  /* color of hover tag */
+  color: #EAF6F6
+}
+
+.skill-row {
+  /* adjusts the position of the skills table */
+  margin-left: 300px;
+
+}
+.Table{
+  margin-left: 500px;
+}
+
+
+/* changing background color to special white color */
+.top-container {
+  background-color: #E4F9F5;
+/* makes all of the changes according to the stuck relative position */
+  position: relative;
+  /* pushes the relative position of the title down */
+  padding-top: 50px;
+}
+
+.bottom-container {
+  /* change background color of bottom section of text*/
+  background-color:  #66BFBF;
+  /* changes the padding of the bottom text */
+  padding: 50px 0 20px;
+
+}
+.CADLink:hover {
+  color: #66BFBF;
+}
+/* changing position of top cloud */
+.top-cloud {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+
+}
+/* changing position of bottom cloud */
+.bottom-cloud {
+position: absolute;
+right: 300px;
+bottom: 300px;
+
+}
+
+.skill-row {
+  /* changing width of listed skills table */
+  width: 50%
+  /* changes the padding surrounding the skill row block */
+  margin: 100px auto 100px auto;
+
+
+}
+
+.profile-picture {
+  /* changing width of listed skills table */
+  width: 30%
+margin: 50px auto 50px auto;
+}
+
+.Kemal-image {
+  /* scales image of me walking with Coco */
+
+
+}
+.hobbies-list {
+  /* Changes the orientation of the hobbies text */
+  float: left;
+}
+
+.skill_image {
+  width: 15%;
+}
+
+hr {
+  /* making horizontal line look cool */
+  /* to change the border style of the website */
+border-style: none;
+border-top-style: dotted;
+border-color: #74BEC1;
+border-width: 5px;
+width: 20%
+}
+
+#Coco-Picture {
+  /* changes the width of Coco's picture */
+  width: 20%;
+
+}
+
+.a_horizontal_line {
+
+}
+
+.intro {
+  /* adjusts the with of text after my name */
+  width: 30%;
+  margin: auto;
+}
+
+/* button style attributes *//
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
